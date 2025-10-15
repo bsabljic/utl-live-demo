@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it using the metadata below.
+title: "UTL Framework: Temporal Risk Detection in Conversational AI"
+authors:
+  - family-names: "Sabljić"
+    given-names: "Branimir"
+    email: "branimir.sabljic@gmail.com"
+    affiliation: "Typotecture / Independent Researcher"
+identifiers:
+  - type: url
+    value: "https://github.com/bsabljic/utl-framework"
+  - type: doi
+    value: "10.0000/zenodo.placeholder"  # replace after Zenodo release
+keywords:
+  - crisis detection
+  - conversation AI
+  - EWMA
+  - temporal risk
+  - UTL
+license: "MIT"
+version: "0.1.0"
+date-released: "2025-10-15"
+repository-code: "https://github.com/bsabljic/utl-framework"

@@ -1,0 +1,43 @@
+{
+  "suicidal_keywords": [
+    "kill myself",
+    "suicide",
+    "end my life",
+    "want to die",
+    "not worth living",
+    "better off dead",
+    "end it all",
+    "take my own life"
+  ],
+  "method_nouns": [
+    "pills",
+    "rope",
+    "gun",
+    "knife",
+    "jump",
+    "overdose",
+    "hanging"
+  ],
+  "finality_phrases": [
+    "goodbye",
+    "last time",
+    "won't see you again",
+    "take care",
+    "thanks for everything"
+  ],
+  "isolation_markers": [
+    "alone",
+    "nobody cares",
+    "isolated",
+    "no friends",
+    "no one understands"
+  ],
+  "implicit_ideation": [
+    "go to sleep forever",
+    "not wake up",
+    "find peace",
+    "end the struggle",
+    "tired of fighting",
+    "want it to stop"
+  ]
+}

@@ -1,0 +1,5 @@
+domain,baseline_f1,baseline_latency,baseline_false_pos,baseline_efficiency,utl_f1,utl_latency,utl_false_pos,utl_efficiency,timestamp
+"High-value clients",0.72,250,0.12,0.65,0.86,47,0.04,0.92,"2025-01-15"
+"Tech support tickets",0.68,180,0.15,0.60,0.83,42,0.03,0.88,"2025-01-15"
+"Returns & complaints",0.65,300,0.18,0.55,0.89,55,0.05,0.95,"2025-01-15"
+"First-time buyers",0.70,200,0.10,0.68,0.81,38,0.02,0.90,"2025-01-15"

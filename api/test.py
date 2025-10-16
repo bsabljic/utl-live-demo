@@ -1,8 +1,11 @@
-from http.server import BaseHTTPRequestHandler
-
-class handler(BaseHTTPRequestHandler):
-    def do_GET(self):
-        self.send_response(200)
-        self.send_header('Content-type', 'text/plain')
-        self.end_headers()
-        self.wfile.write(b'Python works!')
+cat > api/test.py << 'EOF'
+def handler(event, context):
+    return {
+        'statusCode': 200,
+        'headers': {
+            'Content-Type': 'application/json',
+            'Access-Control-Allow-Origin': '*'
+        },
+        'body': '{"ok": true, "message": "Python radi!", "version": 2}'
+    }
+EOF

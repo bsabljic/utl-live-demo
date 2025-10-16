@@ -1,13 +1,8 @@
-cd /c/Users/.../Livefeed_Hazard
+from http.server import BaseHTTPRequestHandler
 
-cat > api/test.py << 'EOF'
-def handler(request):
-    return {
-        'statusCode': 200,
-        'headers': {
-            'Content-Type': 'application/json',
-            'Access-Control-Allow-Origin': '*'
-        },
-        'body': '{"ok": true, "message": "Python API radi!", "test": "success"}'
-    }
-EOF
+class handler(BaseHTTPRequestHandler):
+    def do_GET(self):
+        self.send_response(200)
+        self.send_header('Content-type', 'text/plain')
+        self.end_headers()
+        self.wfile.write(b'Python works!')

@@ -1,11 +1,6 @@
-cat > api/test.py << 'EOF'
-def handler(event, context):
+def handler(request):
     return {
-        'statusCode': 200,
-        'headers': {
-            'Content-Type': 'application/json',
-            'Access-Control-Allow-Origin': '*'
-        },
-        'body': '{"ok": true, "message": "Python radi!", "version": 2}'
+        "statusCode": 200,
+        "headers": {"Content-Type": "application/json"},
+        "body": '{"ok": true, "who": "index.py"}'
     }
-EOF

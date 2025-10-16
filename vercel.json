@@ -1,6 +1,10 @@
-def handler(request):
-    return {
-        "statusCode": 200,
-        "headers": {"Content-Type": "application/json"},
-        "body": '{"ok": true, "runtime": "python"}'
-    }
+{
+  "version": 2,
+  "functions": {
+    "api/**/*.py": { "runtime": "python3.11" }
+  },
+  "routes": [
+    { "src": "/api/index", "dest": "/api/index.py" },
+    { "src": "/api/compare", "dest": "/api/compare.py" }
+  ]
+}

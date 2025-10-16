@@ -12,9 +12,7 @@
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.66.0",
-    "papaparse": "^5.5.3"
-  },
-  "devDependencies": {
+    "papaparse": "^5.5.3",
     "@types/papaparse": "^5.3.16"
   }
 }

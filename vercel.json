@@ -1,8 +1,6 @@
-{
-  "framework": "vite",
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
-  "functions": {
-    "api/**/*.py": { "runtime": "python3.11" }
-  }
-}
+def handler(request):
+    return {
+        "statusCode": 200,
+        "headers": {"Content-Type": "application/json"},
+        "body": '{"ok": true, "runtime": "python"}'
+    }

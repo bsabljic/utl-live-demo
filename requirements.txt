@@ -1,3 +1,1 @@
-# Python dependencies for Vercel serverless functions
-# Add more if your API needs them (pandas, numpy, etc.)
-requests
+# Add Python packages here if needed later
